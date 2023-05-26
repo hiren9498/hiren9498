@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body
+        {
+            background-color: coral;
+            margin: 0;
+            padding: 0;
+        }
+        hr
+        {
+            width: 90%;
+            border: solid 1px rgb(21, 12, 6);
+        }
+        h1
+        {
+            font-size: 40px;
+            font-family: cursive;
+            color: darkslateblue;
+            overflow-x: hidden;
+        }
+        div
+        {
+            width: 40%;
+            height: auto;
+            padding: 10px;
+            margin-left: 5%;
+            margin-top: 5%;
+            background-color: cadetblue;
+            box-shadow: 1px 2px 2px 1px black;
+            float:left;
+
+        }
+        input
+        {
+            width: 300px;
+            height: auto;
+            padding: 8px;
+
+        }
+        input[type="submit"]
+        {
+            width: 200px;
+            height: auto;
+            padding: 5px;
+            background-color: darkgrey;
+        }
+        input[type="reset"]
+        {
+            width: 200px;
+            height: auto;
+            padding: 5px;
+            background-color: rgb(131, 23, 23);
+            color: antiquewhite;
+        }
+        textarea
+        {
+            width: 300px;
+            height: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <h1>Get in touch with map</h1>
+        <hr align="left">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.1079327706716!2d70.77151827420948!3d22.273900943853825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959cbab472a5e09%3A0x482bbe9c7d96e617!2sGamers%20headquarter%20the%20game%20zone!5e0!3m2!1sen!2sin!4v1685076396353!5m2!1sen!2sin" width="520" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div>
+<h1>Contact with us</h1>
+<hr align="left">
+<form action="welcom.html" name="frm" id="frm" enctype="multipart/form-data">
+    <table align="center" width="100%">
+
+        <tr>
+    <th align="left">Name *</th>
+  <td><input type="text" name="name" placeholder="Enter your name *" required></td>
+        </tr>
+    
+        <tr>
+   <th align="left">Last name *</th>
+    <td><input type="text" name="last name" placeholder="Enter your last name *" required></td>
+        </tr>
+
+    <tr>
+    <th align="left">Email *</th>
+   <td><input type="text" name="email" placeholder="Enter your Email *" required></td>
+    </tr>
+    
+    <tr>
+   <th align="left">Phone *</th>
+    <td><input type="text" name="phone" placeholder="Enter your phone *" required></td>
+    </tr>
+    
+    <tr>
+    <th align="left">Birth date *</th>
+    <td><input type="date" name="date" placeholder="Enter your Birthdate *" required></td>
+    </tr>
+    
+    <tr>
+    <th align="left">Subject *</th>
+    <td><input type="text" name="subject" placeholder="Enter your subject *" required></td>
+    </tr>
+
+<tr>
+<th align="left">Massage</th>
+<td><textarea name="text" placeholder="Enter your massage"></textarea></td>
+</tr>
+
+<tr>
+<td align="center" colspan="2"><input type="submit" name="send" value="send">
+
+<input type="reset" name="reset" value="reset">
+</td>
+</tr>
+    </table>
+</form>
+    </div>
+</body>
+</html>
