@@ -1,0 +1,97 @@
+@import url(font-family.css);
+body
+{
+    background-color: mediumslateblue;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#main
+{
+    width:100%;
+    
+    height: auto;
+    padding:0;
+    display: inline-block;
+    display:flex;
+    flex-direction: row !important;
+    background-color: aliceblue;
+}
+ 
+
+
+.logo
+{
+    width: 25%;
+    height: auto;
+    font-size: 30px;
+    margin: 0%;
+    padding: 15px;
+    margin-left: 5%;
+    color: rgb(70, 64, 64);
+}
+.navbar
+{
+width:75% ;
+height: auto;
+font-size: 20px;
+
+padding: 0px 20px;
+
+
+}
+
+.navbar-link li
+{
+display: inline-block;
+padding: 1px 15px;
+list-style-type: none;
+font-size: 17px;
+
+
+}
+.navbar-link a
+{
+text-decoration: none;
+color:red;
+
+list-style-type:none ;
+text-transform: capitalize;
+}
+.navbar-link .bo 
+{
+    background-color: red;
+    color: azure;
+    padding: 21px 40px;
+    font-size: 25px;
+    
+}
+
+.hero
+        {
+            width: 250px;
+            height:250px;
+            padding: 20px;
+            margin-top: 5%;
+            float: left;
+            text-align: center;
+            border-radius: 50%;
+            background-color: chartreuse;
+            overflow: hidden;
+            margin-left: 8%;
+            transition: 3s ease all;
+
+        }
+        .hero:hover
+        {
+            /* background-color: mediumseagreen; */
+            background: url('../image/hiren2.jpg') no-repeat;
+            background-size: cover;
+            /* transform is used to rotate formate and other rotate repeat karva double degree  */
+            transform: rotate(-360deg);
+            
+        }    
+
+
+
