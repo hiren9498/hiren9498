@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+      .flip
+      {
+        width: 450px;
+        height: 450px;
+        margin-left: 30%;
+        margin-top: 5%;
+        background-color: transparent;
+
+
+      }
+      .flip-inner
+      {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        text-align: center;
+        transition: 2s ease all;
+        transform-style: preserve-3d;
+      }
+      
+      .flip:hover .flip-inner
+      {
+        width: 100%;
+        height: 100%;
+        transform: rotateX(180deg);
+    }
+     .flip-inner-img, .flip-txt
+     {
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        position: absolute;
+     }
+     .flip-txt
+     {
+    background-color: darkcyan;
+    transform: rotateX(180deg);
+
+     }
+     
+    </style>
+</head>
+<body>
+    <div class="flip">
+        <div class="flip-inner">
+            <div class="flip-inner-img">
+                <img src="mahadev.jpg" style="width: 400PX; height: 450px;">
+            </div>
+            
+            <div class="flip-txt">
+                <h1>MAHADEV IS AN GOD</h1>
+                <p>Shiva or Mahadeva is the supreme god in Shaivism tradition in Hinduism and one of the chief deities as a member of the Trimurti. Shiva is causeless auspiciousness. Shiva is known as the Maha Rudra (the master of all Rudras). Shiva is an embodiment of ultimate space of enlightenment.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

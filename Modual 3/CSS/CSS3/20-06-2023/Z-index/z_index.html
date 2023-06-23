@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body
+        {
+            width: 100%;
+            height: auto;
+            overflow-x: hidden;
+            background-color: rgb(44, 28, 17);
+        }
+        .box
+        {
+            width:100%;
+            height:auto;
+            position: relative;
+            margin-left: 10%;
+
+            padding: 30px;
+
+        }
+        .box1
+        {
+            width:400px;
+            height: 300px;
+            background-color: brown;
+            position: absolute;
+            /* z-index: -1; */
+            z-index: 1;
+        
+        }
+        .box2
+        {
+            width:400px;
+            height: 300px;
+            background-color:darkgoldenrod;
+            position: absolute;
+            margin-top: 8%;
+            margin-left: 15%;
+            /* z-index: -2; */
+            z-index: 2;
+        }
+        .box3
+        {
+            width:400px;
+            height: 300px;
+            background-color:rgb(65, 227, 15);
+            position: absolute;
+            margin-top: 17%;
+            margin-left: 25%;
+            /* z-index minus text it will be rotate path for div */
+            /* z-index: -3; */
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <section id="box">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    </section>
+</body>
+</html>
