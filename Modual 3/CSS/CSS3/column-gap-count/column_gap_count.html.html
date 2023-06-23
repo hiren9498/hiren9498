@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+       <!--animate.style  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <style>
+    body
+    {
+        margin: 0;
+        padding: 0;
+        background-color: darkcyan;
+        -webkit-animation: 2s backInUp alternate ;
+        -moz-animation:2s backInUp alternate ;
+        animation:2s backInUp alternate ;
+    }
+    
+    
+
+    .box,.box1,.box2
+    {
+        width: 50%;
+        height:auto;
+        margin:auto;
+        padding:25px; 
+        background-color: chocolate;
+        margin-top: 3%;
+      
+        
+
+    
+    }
+    .box h1
+    {
+        font-size: 40px;
+        animation:2s bounce infinite;
+
+    }
+    .box1 h1
+    {
+        /* font-size: 40px; */
+        animation: 2s flash infinite;
+
+    }
+    .box1 p
+    {
+        text-align: justify;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        column-gap: 40px;
+
+    }
+    .box1 img
+    
+    {
+        
+animation:6s flipInX infinite;
+    }
+    .box2 img
+    {
+        /* clip-path: path('M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z'); */
+        /* clip-path:circle(40%); */
+        /* clip-path: ellipse(180px 10px to 20% 10%); */
+        clip-path: polygon(50% 0,100% 50%,50% 100%,0 50%);
+    }
+    .box p
+    {
+        text-align: justify;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        column-gap: 35px;
+    }
+  </style>
+</head>
+<body>
+    <div class="box">
+        <h1>H & K touristor</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni odio minus quibusdam aperiam aspernatur totam saepe repellendus enim voluptate voluptatibus beatae voluptates ipsum nostrum quos ex odit, tempora fuga ut.</p>
+    </div>
+
+    <div class="box1">
+        <h1>Registor now</h1>
+        <p><img src="image/travel.png"  style="width: 150px; height: 150px; float: left; padding: 8px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni odio minus quibusdam aperiam aspernatur totam saepe repellendus enim voluptate voluptatibus beatae voluptates ipsum nostrum quos ex odit, tempora fuga ut. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores accusamus distinctio dolores nulla voluptate molestias cumque illum illo odit et amet voluptatum, vitae saepe temporibus sit? Sint quis tenetur harum!Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quisquam rem corporis nesciunt tempore natus quod expedita aliquid esse est distinctio odio vero, dolor culpa quaerat maiores nulla aspernatur animi?</p>
+    </div>
+
+    <div class="box2">
+        <h1>Tourist place</h1>
+        <p><img src="image/manali.jfif"  style="width: 150px; height: 150px; float: left; padding: 8px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni odio minus quibusdam aperiam aspernatur totam saepe repellendus enim voluptate voluptatibus beatae voluptates ipsum nostrum quos ex odit, tempora fuga ut. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores accusamus distinctio dolores nulla voluptate molestias cumque illum illo odit et amet voluptatum, vitae saepe temporibus sit? Sint quis tenetur harum!Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quisquam rem corporis nesciunt tempore natus quod expedita aliquid esse est distinctio odio vero, dolor culpa quaerat maiores nulla aspernatur animi?</p>
+    </div>
+    
+</body>
+</html>
