@@ -1,0 +1,20 @@
+what is javascript?
+
+javascript is client side scriptng language.
+javascript is used to as programming language.
+javascript top 3 best language in the world.
+javascript most populer language used in frontand developer.
+javascript is used to load dynamic contant in our website.
+javascript is case-sensitive language.
+ex: alert(); prompt(); confirm();
+javascript developed and managed by ECMAScript oragnization.
+javascript is used to set behavior in  your applications.
+javascrip is called inside of <head> and <body> both.
+javascript called inside of <script>  tag.
+javascript file is extentions is .js when we used external javascript.
+ex: 
+    calculator.js
+   
+    <script="calculator.js"></script>
+
+javascript operators:
