@@ -1,0 +1,174 @@
+body
+{
+    /* width: 100%; */
+    /* height: auto; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#header
+{
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    background-color: cadetblue;
+    justify-content: space-between !important;
+
+}
+.navbar
+{
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+}
+.account-call-us
+{
+    width: 15%;
+    padding: 10px;
+    float: end;
+   
+ 
+}
+.account-call-us li a
+{
+    display: flex;
+    flex-direction: none;
+    padding: 10px;
+}
+.account-link li 
+{
+    display: inline-block;
+    margin-top: -3.5;
+    background-color: aliceblue;
+    list-style-type: none;
+}
+.account-link li a
+{
+    text-decoration: none;
+    color: black;
+}
+.navbar img
+{
+    width:140px;
+    height: 60px;
+    margin: 0;
+    /* margin-top: -3.5%; */
+    padding: 10px;
+    border-color: cadetblue;
+   
+}
+.navbar-info
+{
+    width: 100%;
+    height: 22px;
+    margin: 0;
+    padding: 18px;
+   background-color: rgb(49, 58, 58);
+   float:inline-end;
+    font-size: 30px;
+}
+.navbar-link li
+{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 5px;
+    }
+.navbar-link li a
+{
+    text-decoration: none;
+    display: inline-block;
+    color: aliceblue;
+   
+}
+#phone,#marker,#insta,#whatsup
+{
+    width: 28px;
+    height: auto;
+    margin: 0;
+    padding: 3px;
+}
+
+.navbar-new
+{
+    float: inline-end ;
+    margin-top: -2.5%;
+}
+#banner-app
+{
+    width: 100%;
+    height: 40px;
+    margin-top: 4%;
+}
+.banner img
+{
+    width: 100%;
+    height: 400px;
+}
+#contant-app
+{
+    width: 100%;
+    height: auto;
+}
+.our-benifit
+{
+    width: 80%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-top: 30%;
+    margin-left: 15%;
+
+}
+#footer
+{
+    width: 100%;
+    height: auto;
+    background-color: rgb(14, 28, 29);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.contact-us h2
+{
+    font-size: 30px;
+    color: aliceblue;
+}
+.contact-us p
+{
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    color: aliceblue;
+}
+.news-letter
+{
+    width:50%;
+    height: auto;
+    color: aliceblue;
+    text-align: justify;
+}
+.news-letter  input
+{
+    width:30%;
+    height: auto;
+   padding: 5px;
+}
+.clearfix
+{
+   clear: both;
+}
+.copyright
+{
+    width: 80%;
+    height: auto;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+   
+}
