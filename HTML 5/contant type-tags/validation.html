@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <center>
+        <form action="welcome.html">
+        <input type="text" name="name" placeholder="enter your name *" required>
+        <br><br>
+         <input type="email" name="email" placeholder="enter your email *" required>
+        <br><br>
+         <input type="phone" name="phone" placeholder="enter your phone number *" required>
+        <br><br>
+         <input type="date" name="birthdate" placeholder="enter your birthdate *" required>
+        <br><br>
+
+        <label>please enter uppercase,lowercase and <br> number formate in password</label>
+        <br><br>
+        <input type="password" name="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" placeholder="enter your password *" required>
+        <br><br>
+        Gender:&nbsp;Male<input type="radio" name="gender" value="male">
+        Female<input type="radio" name="gender" value="Female">
+        other<input type="radio" name="gender" value="other"><br><br>
+
+        Hobbies:&nbsp;Cricket<input type="checkbox" name="check" value="Cricket">
+        Reading<input type="checkbox" name="check" value="Reading">
+        learning<input type="checkbox" name="check" value="learning"><br><br>
+        Country: <select name="Country">
+            <option value="India">India</option>
+            <option value="Australia">Australia</option>
+            <option value="Europe">Europe</option>
+            <option value="USA">USA</option>
+            <option value="London">London</option>
+        </select><br><br>
+
+        Select multiple city: <select name="City" multiple max="3">
+            <option>--Select city--</option>
+            <option value="1">RAjkot</option>
+            <option value="2">Ahemdabad</option>
+            <option value="3">Surat</option>
+            <option value="4">pune</option>
+            <option value="5">Paldi</option>
+            <option value="6">Jaipur</option>
+            <option value="7">Lonavala</option>
+            <option value="8">Goa</option>
+        </select><br><br>
+
+        
+        <input type="submit" name="submit" value="submit">
+        </form>
+    </center>
+</body>
+</html>
