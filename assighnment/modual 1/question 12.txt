@@ -1,0 +1,5 @@
+Q.12  How to create a Hyperlink in HTML? With Example.
+
+You can also create a hyperlink for an external website. To make a hyperlink in an HTML page, use the <a> and </a> tags, which are the tags used to define the links. The <a> tag indicates where the hyperlink starts and the </a> tag indicates where it ends.
+
+Code example: <a href=http://www.example.com>Example</a>

@@ -1,0 +1,10 @@
+Q.8  What are the various formatting tags in HTML?
+
+As we know, HTML provides many predefined elements that are used to change the formatting of text. The formatting can be used to set the text styles (like – bold, italic, or emphasized, etc.), highlight the text, make text superscript and subscript, etc.
+
+In this article, we will discuss different formatting tags in HTML.
+
+<b> and <strong> Tags: Both tags are used to make the text bold. The text content of the tag is shown as important information on the webpage.
+
+
+Example: In this example, we will use <b>and <strong>

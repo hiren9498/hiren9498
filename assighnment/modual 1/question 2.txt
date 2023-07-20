@@ -1,0 +1,9 @@
+Q.2 What are tags and attributes in HTML?
+
+HTML tags are used to hold the HTML element. HTML element holds the content. HTML attributes are used to describe the characteristic of an HTML element in detail. HTML tag starts with < and ends with > Whatever written within a HTML tag are HTML elements.
+
+example:-
+         <img>    this is tag 
+         <img src=""> this is attributes
+
+         both are differant.

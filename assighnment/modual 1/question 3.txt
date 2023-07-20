@@ -1,0 +1,6 @@
+Q.3 What are void elements in HTML? With Example
+
+oid tags are HTML tags that do not need a closing tag. An example of a void tag would be the <input /> tag. Void tags are also referred to as self-closing tags. Brian demonstrates void tags by introducing the <img /> tag which is
+
+example:-
+          <input>

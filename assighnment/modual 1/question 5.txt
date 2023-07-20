@@ -1,0 +1,26 @@
+Q.5 What are different types of lists in HTML? With Example.
+
+HTML 3types of lists
+exa.
+
+   1) ordered list
+      example= 
+              <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+               </ol> 
+  
+   2) unordered list
+       
+       example= <ul>
+                   <li>Coffee</li>
+                  <li>Tea</li>
+                  <li>Milk</li>
+                    </ul> 
+   3) nested list 
+              <ol>
+              <ul>
+                  <li></li>
+                  </ul>
+                  </ol>

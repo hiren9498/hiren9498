@@ -1,0 +1,16 @@
+Q.4 wht are HTML antities? with example.?
+
+
+
+Some characters are reserved in HTML.
+
+If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
+
+Character entities are used to display reserved characters in HTML.
+
+A character entity looks like this:
+
+example:-&entity_name;
+
+OR
+&#entity_number; 

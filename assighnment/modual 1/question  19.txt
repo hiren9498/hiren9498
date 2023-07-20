@@ -1,0 +1,3 @@
+Q.19   What is difference between HTML and XHTML?
+
+XHTML was developed to make HTML more extensible and flexible to work with other data formats (such as XML). In addition, browsers ignore errors in HTML pages, and try to display the website even if it has some errors in the markup. So XHTML comes with a much stricter error handling

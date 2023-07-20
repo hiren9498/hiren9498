@@ -1,0 +1,22 @@
+Q.10  How can we club two or more rows or columns into a single row or column in an HTML
+table? With Example
+
+We use the colspan and rowspan attribute, to merge cells in HTML. The rowspan attribute is for the number of rows a cell should merge, whereas the colspan attribute is for the number of columns a cell should merge. The attribute should be placed inside the <td> tag.
+
+Example:=
+          <table align="center">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Akku</td>
+  
+            <!-- This cell will take up
+                space on two rows -->
+            <td rowspan="2">44</td>
+        </tr>
+        <tr>
+            <td>fahad</td>
+        </tr>
+    </table>
