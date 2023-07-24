@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='js/javascript.js'></script>
+    <style>
+        body
+        {
+            background-color: cadetblue;
+        }
+        #locations
+        {
+            width: 100%;
+            height: auto;
+            margin: 5px;
+            padding: 8px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+        }
+        h1
+        {
+            margin-left: 15px;
+            font-size: 45px;
+        }
+        hr
+        {
+            color:black ;
+            width: 20%;
+            margin-left: 10px;
+        }
+        .address1
+        {
+            width: 42%;
+            height: auto;
+            padding: 10px;
+            margin: 5px;
+            background-color: rgb(65, 21, 6);
+        }
+    </style>
+</head>
+<body>
+    <h1>Location</h1>
+    <hr>
+    <section id=locations>
+        <div class="address1" id="add1">
+            <script>
+                address1()
+            </script>
+        </div>
+        <div class="address1" id="add2">
+            <script>
+                address2()
+            </script>
+        </div>
+        <div class="address1" id="add3"> 
+            <script>
+                address3()
+            </script>
+        </div>
+        <div class="address1" id="add4">
+            <script>
+                address4()
+            </script>
+        </div>
+    </section>
+</body>
+</html>
