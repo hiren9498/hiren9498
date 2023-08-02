@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function test()
+        {
+            var const1=document.getElementById("section1");
+            var const2=document.getElementById("section2");
+            var const3=document.getElementById("section3");
+            const1.classList.add("constant1");
+            const2.classList.add("constant2");
+            const3.classList.add("constant3");
+          }
+    </script>
+    <style>
+        .constant1
+        {
+            width: 50%;
+            height: auto;
+            margin: auto;
+            padding: 20px;
+            background-color: rgb(49, 29, 15);
+            margin-top: 5%;
+        }
+        .constant2
+        {
+            width: 40%;
+            height: auto;
+            margin: auto;
+            padding: 20px;
+            background-color:crimson;
+            margin-top: 5%;
+        }
+        .constant3
+        {
+            width: 60%;
+            height: auto;
+            margin: auto;
+            padding: 20px;
+            background-color: darkorange;
+            margin-top: 5%;
+        }
+    </style>
+</head>
+<body onload="test()">
+    <div id="section1"></div>
+    <div id="section2"></div>
+    <div id="section3"></div>
+    
+</body>
+</html>

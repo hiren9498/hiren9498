@@ -1,0 +1,25 @@
+<script>
+    function test()
+{
+    var age=document.getElementById("age").value;
+    if (age<=18)
+
+    if (confirm('Are you sure to you are 18+ years old ?'))
+    {
+        window.alert('Thanks for information')
+        window.location='https://www.incometax.gov.in/';
+    }
+
+    else
+    {
+        window.alert=('Sorry you are not 18+ year old')
+        window.location='check_us_uent.html';
+    }
+}
+
+</script>
+
+<h3>Enter your age:</h3>
+<input type="text" name="age" id="age" placeholder="Enter age...">
+<br><br>
+<button onclick="test()">Click if you are 18+ year age</button>

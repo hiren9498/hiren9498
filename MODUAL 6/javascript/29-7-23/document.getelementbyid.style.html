@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function check()
+        {
+            var nm=document.getElementById('nm').value;
+            document.getElementById('demo').style="color:blue; font-size:25px; transition:2s ease all";
+            document.getElementById('demo').innerHTML='My name is:'+nm;
+        }
+    </script>
+</head>
+<body>
+    <input type="text" name="name" id="nm" placeholder="Enter name...*" required>
+    <p id="demo"></p>
+    <button type="button" onclick="check()">Check name</button>
+</body> 
+</html>

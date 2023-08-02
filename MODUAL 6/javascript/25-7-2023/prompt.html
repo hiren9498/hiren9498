@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function add()
+        {
+            var a=parseInt(prompt('Enter N1 values :'));
+            var b=parseInt(prompt('Enter N2 values :'));
+            var c=a+b;
+            document.getElementById("result").innerHTML="Additions of numbers :"+c;
+
+        }
+        function mult()
+        {
+            var a=parseInt(prompt('Enter N1 values :'));
+            var b=parseInt(prompt('Enter N2 values :'));
+            var c=a*b;
+            document.getElementById("result").innerHTML="Multiplications of numbers :"+c;
+
+        }
+        function subs()
+        {
+            var a=parseInt(prompt('Enter N1 values :'));
+            var b=parseInt(prompt('Enter N2 values :'));
+            var c=a-b;
+            document.getElementById("result").innerHTML="Substractions of numbers :"+c;
+
+        }
+        function dv()
+        {
+            var a=parseInt(prompt('Enter N1 values :'));
+            var b=parseInt(prompt('Enter N2 values :'));
+            var c=a/b;
+            document.getElementById("result").innerHTML="Divisions of numbers :"+c;
+
+        }
+    </script>
+</head>
+<body bgcolor="vintage">
+
+    <center>
+    <h1 align="center" style="color: antiquewhite;">Calculator</h1>
+    <p align="center" id="result"></p>
+    <button type="button" onclick="add()">Additions</button>
+    <button type="button" onclick="subs()">Substractions</button>
+    <button type="button" onclick="mult()">Multiplications</button>
+    <button type="button" onclick="dv()">Divisions</button>
+    </center>
+</body>
+</html>

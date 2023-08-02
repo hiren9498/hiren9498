@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function test()
+        {
+            var age=document.getElementById('age').value;
+            if(age>=18)
+            {
+            if(confirm('Are you sure you are 18+ year old'))
+            {
+                window.alert('Thanks for your information')
+                window.location='https://www.incometax.gov.in/';
+            }
+            }
+            else
+            {
+                window.alert('Sorry you are not 18+ year old')
+                window.location='check_as_users.html';
+            }
+        }
+    </script>
+</head>
+<body>
+    <h3>Enter your age:</h3>
+    <input type="text" name="name" id="age" placeholder="Enter name...*">
+    <br><br>
+    <button onclick="test()">Click if you 18+ year age </button>
+</body>
+</html>
