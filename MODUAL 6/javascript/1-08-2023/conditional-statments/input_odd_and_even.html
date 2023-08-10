@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+function test()
+{
+    var num=document.getElementById("number").value;
+    if(num%2==0)
+    {
+        // document.write('<h3>Number is Even</h3>');
+        document.getElementById('demo').innerHTML="Number is even";
+    }
+    else
+    {
+        // document.write('<h3>Number is Odd</h3>');
+        document.getElementById('demo').innerHTML="Number is Odd";
+    }
+}
+    </script>
+</head>
+<body>
+    <p id="demo"></p>
+    <input type="text" name="number" id="number" placeholder="enter number *" required>
+    <br><br>
+    <button type="button" name="sub" onclick="test()">Check </button>
+</body>
+</html>
+
+

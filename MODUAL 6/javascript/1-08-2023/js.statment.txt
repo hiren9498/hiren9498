@@ -1,0 +1,24 @@
+javascript statement are used to check conditions or true or false or check loop etc.
+
+types of statements 
+
+A) Conditions of statements 
+
+a)if
+b)if else
+c)nested if
+d)if else if
+e)switch
+
+B) looping statements
+
+a)for
+b)foreach
+c)nested for
+d)while
+e)do while
+
+C)jumping statements
+
+a)break
+b)continue
