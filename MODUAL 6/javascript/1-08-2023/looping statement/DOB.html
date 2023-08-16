@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    Select DOB: <select name="Day">
+        <option value="">-Day-</option>
+        <script>
+            for(i=1;i<=31;i++)
+            {
+                document.write("<option>"+i+"<option>");
+            }
+        </script>
+    </select>
+
+    <select name="Month">
+        <option value="">-Month-</option>
+        <script>
+            for(m=1;m<=12;m++)
+            {
+                document.write("<option>"+m+"<option>");
+            }
+        </script>
+    </select>
+
+    <select name="Year">
+        <option value="">-Year-</option>
+        <script>
+            for(y=1960;y<=2023;y++)
+            {
+                document.write("<option>"+y+"<option>");
+            }
+
+        </script>
+
+    </select>
+    
+</body>
+</html>
