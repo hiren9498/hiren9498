@@ -29,14 +29,14 @@
                     <td>101</td>
                     <td>Nokia</td>
                     <td><img src="https://images.ctfassets.net/wcfotm6rrl7u/6Ahh6vDQyLcPH5LcBTJksg/fde9fe9f3758dd45c02fb4c5ff0ff5aa/nokia-G21-nordic_blue-back-in.png" width="100px" height="170px"></td>
-                    <td><input type="number" id="qty" value="1" min="1" max="10" onchange="subcart()"></td>
-                    <td>RS. <input type="text" id="price" value="29,999"  readonly style="border: none; font-size:20px;" width="40px"  ></td>
+                    <td><input type="number" id="qty" value="1" min="1" max="10" onchange="return totalsubcart(this.value)"></td>
+                    <td>RS. <input type="text" id="price" value="29999"  readonly style="border: none; font-size:20px;" width="40px"  ></td>
                     <td><button type="button">Delete</button></td>
 
                 </tr>
                 <tr>
                     <td align="right" colspan="6">
-                    <h1 style="width: 30%; height: auto; background-color: cadetblue;color: black; padding: 15px;">Subtotal of RS. <label id="total">29,999</label></h1>
+                    <h1 style="width: 30%; height: auto; background-color: cadetblue;color: black; padding: 15px;">Subtotal of RS. <label id="total">29999</label></h1>
                 </td>
                 </tr>
             </tbody>

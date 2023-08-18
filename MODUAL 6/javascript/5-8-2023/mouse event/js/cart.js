@@ -1,8 +1,22 @@
-function subcart()
+function totalsubcart()
 {
-    var p=document.getElementById("price").value;
-    var q=document.getElementById("qty").value;
-   
+    var p=parseInt(document.getElementById("price").value);
+    var q=parseInt(document.getElementById("qty").value);
     var t=p*q;
-    document.getElementById("total").innerHTML=+t;
+    //alert('t'); 
+    document.getElementById("total").innerHTML=t;
+}
+function chk()
+{
+    var fnm=document.getElementById("fname");
+    // alert("fnm");
+    fnm.value=fnm.value.toUpperCase();
+
+    var lnm=document.getElementById("lname");
+    // alert("lnm");
+    lnm.value=lnm.value.toUpperCase();
+
+    var enm=document.getElementById("email");
+    // alert("enm");
+    enmnm.value=enm.value.toUpperCase();
 }

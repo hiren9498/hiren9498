@@ -20,6 +20,37 @@ input[type="text"]
    width: 100px;
    height: auto;
    padding: 10px;
+   margin-top: 3%;
 
 }
+input[type="submit"]
+{
+   width: 200px;
+   height: auto;
+   padding: 10px;
+   margin-top: 3%;
+
+}
+#fname
+{
+    width: 600px;
+    height: auto;
+    padding: 8px;
+}
+
+#lname
+{
+    width: 600px;
+    height: auto;
+    padding: 8px;
+}
+#email
+{
+    width: 600px;
+    height: auto;
+    padding: 8px;
+}
+
+
+
 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='js/valid.js'></script>
+</head>
+<body>
+     <center>
+        <div class="section">
+            <h1 align="center">Register Now >></h1>
+            <form method="post" name="frm" onsubmit="(this.value)">
+                <table width="60%" align="center">
+                    <tr>
+                        <td><input type="text" name="fname" id="fname" placeholder="fname *" onblur="val()" ></td>
+                    </tr>
+                
+                    <tr>
+                        <td><input type="text" name="lname" id="lname" placeholder="lname *" onblur="val()" ></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="text" name="email" id="email" placeholder="email *" onblur="val()" ></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="submit" name="submit" value="Register" onblur="val()" ></td>
+                    </tr>
+                </table>
+            </form>
+
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <th><h2>View cart 1</h2></th>
+                    </tr>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Photo</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                    <th>Action</th>
+             </tr>
+                </thead>
+                <tbody>
+                    <tr align="center">
+                        <td>101</td>
+                        <td>Nokia</td>
+                        <td><img src="https://images.ctfassets.net/wcfotm6rrl7u/6Ahh6vDQyLcPH5LcBTJksg/fde9fe9f3758dd45c02fb4c5ff0ff5aa/nokia-G21-nordic_blue-back-in.png" width="100px" height="170px"></td>
+                        <td><input type="number" id="qty" value="1" min="1" max="10" onchange="return totalsubcart(this.value)"></td>&nbsp;&nbsp;
+                        <td>RS. <input type="text" id="price" value="29999"  readonly style="border: none; font-size:20px;" width="40px"  ></td>
+                        <td><button type="button">Delete</button></td>
+    
+                    </tr>
+                    <tr>
+                        <td align="right" colspan="6">
+                        <h1 style="width: 30%; height: auto; background-color: cadetblue;color: black; padding: 15px;">Subtotal of RS. <label id="total">29999</label></h1>
+                    </td>
+                    </tr>
+                </tbody>
+    
+            </table>
+        </div>
+     </center>
+    
+</body>
+</html>
