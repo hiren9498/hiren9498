@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+    <script>
+         $(document).ready(function(){
+            $('#btn').click(function(){
+                $('#test').html(function(){
+                    var h=new Date;
+                    // document.write(h);
+                    document.getElementById('test').innerHTML=h;
+                })
+            })
+         })
+    </script>
+</head>
+<body>
+    <p id="test"></p>
+    <br><br>
+    <button type="button" id="btn">
+        Click here to currant Date and Time>>>
+
+        </button>
+</body>
+</html>
