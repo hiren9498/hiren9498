@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+    <script>
+   jQuery(document).ready(function(){
+    // function for additions 
+    jQuery('#con').click(function(){
+        // type casting 
+        var a=parseInt(prompt('Enter your Age value :'));
+        // var result=a>=18?"You are eligible to oper our website thanks":"you are not eligible to open our website thanks";
+        if(a>=18)
+        {
+            alert('Yes you are elegible')
+            window.location='https://www.netflix.com/in/';
+        }
+        else
+        {
+            alert('sorry You are not eligible');
+            window.location='';
+        }
+    })
+   })
+    </script>
+</head>
+<body>
+    <div class="calv">
+            <h1>Enter your Age :</h1>
+            <button type="button" id="con">Click to Here>></button>
+
+
+
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+
+    <script>
+        $(document).ready(function(){
+            $('#btn').click(function(){
+                $('.test').toggle();
+            })
+        })
+    </script>
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+            /* overflow-x: hidden; */
+            /* background-color: rgb(90, 134, 45); */
+        }
+        .test
+        {
+            width: 20%;
+            height: 500px;
+            margin: 0;
+            padding: 5px;
+            position: absolute;
+            display: none;
+            background-color: rgb(155, 70, 70);
+            color: rgb(59, 54, 46);
+            z-index: -5 !important;
+        }
+        .btn-tgl
+        {
+            width: 30%;
+            height: auto;
+            padding: 10px;
+            position: absolute;
+        }
+        .tgl ,.fa-bars
+        {
+            font-size: 40px;
+            margin-left: 3%;
+            color: rgb(43, 9, 46);
+        }
+        .test1
+        {
+            margin-top: 20%;
+            
+        }
+        .test-toggler li
+        {
+            display: block;
+            text-decoration: none;
+            /* margin-top: 30%; */
+            list-style-type: none;
+            padding: 10px 25px;
+        }
+        .test-toggler li a
+        {
+            font-size: 20px;
+            text-decoration: none;
+            list-style-type: none;
+            color: burlywood;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="btn-tgl" id="btn">
+        <span class="fa fa-bars"></span>
+    </div>
+    <section class="test">
+        <div class="test1">
+            <ul class="test-toggler">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Our service</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Our Branches</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+    
+</body>
+</html>
