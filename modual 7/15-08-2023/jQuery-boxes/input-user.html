@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+    <!-- call a jQuery -->
+    <script>
+        // $(document).ready(function(){
+        //     statements;
+        // })
+        
+        $(document).ready(function(){
+            statements;
+        })
+        
+        // jQuery(document).ready(function(){
+        //     statements;
+        // })
+       
+
+ 
+         // {"":""}Object
+        $(document).ready(function(){
+            $('#div').css({"width":"80%","heigth":"auto","margin":"auto","padding":"15px"});
+            $('#btn').css({"width":"50%","height":"auto","margin":"auto","background-color":"black","color":"white","fon-size":"20px","padding":"10px"});
+            // check for age availabity
+            $('#btn').click(function(){
+                //   type casting method
+            
+            var a=parseInt(prompt("enter a value ?"));
+            var b=parseInt(prompt("enter b value"));
+            var c=a+b;
+            alert("The Addition of number is:"+c);
+
+            });
+        })
+    </script>
+</head>
+<body>
+    <div class="calc">
+        <button type="button" id="btn" style="margin: auto;">Add Numbers</button>
+    </div>
+</body>
+</html>

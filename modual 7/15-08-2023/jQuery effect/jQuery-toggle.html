@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+    <style>
+   .jquery-toggle
+    {
+        width: 60%;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+        background: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW5zY3JlZW4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&w=1000&q=80);
+
+    }
+    #btn1
+    {
+        width: 100px;
+        height: auto;
+        padding: 5px;
+        background-color: burlywood;
+    }
+    #btn2
+    {
+        width: 100px;
+        height: auto;
+        padding: 5px;
+        background-color:chocolate;
+    }
+    #btn3
+    {
+        width: 100px;
+        height: auto;
+        padding: 5px;
+        background-color:darkcyan;
+    }
+    p
+{
+    color: antiquewhite;
+}
+    </style>
+</head>
+<body>
+    <div class="jquery-toggle">
+        <button type="button" id="btn1">Hide</button>
+        <button type="button" id="btn2">Show</button>
+        <button type="button" id="btn3">Toggle</button>
+        <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto incidunt et voluptatem a assumenda, neque, pariatur rem molestias, error est nostrum iste odio nisi non voluptatibus quas quod. Doloremque, fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque libero molestiae necessitatibus sequi non nesciunt, ipsa voluptates ratione, modi placeat repellendus hic officia nisi sed quod beatae possimus aliquam deleniti!</p>
+
+    </div>
+    <script>
+    $(document).ready(function(){
+        $('#btn1').click(function(){
+            // $('#demo').hide(5000);
+            // $('#demo').hide();
+            $('#demo').hide('slow');
+
+        })
+        $('#btn2').click(function(){
+            // $('#demo').show();
+            // $('#demo').show('slow');
+            $('#demo').show(3000)
+        })
+        $('#btn3').click(function(){
+            // $('#demo').toggle();
+            // $('#demo').toggle('slow')
+            $('#demo').toggle(3000)
+        })
+    })
+    </script>
+    
+</body>
+</html>
